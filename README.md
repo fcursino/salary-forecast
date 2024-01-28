@@ -27,14 +27,11 @@ The aim of the project is to develop an AI model that can predict the salaries o
 
    ```bash
    pip install -r requirements.txt
-4. Run all the cells inside app_gradio_colesterol.ipynb file:
-
-   ![IMG](https://github.com/fcursino/salary-forecast/blob/main/instruction.png)
-5. Run the FastAPI with uvicorn:
+4. Run the FastAPI with uvicorn:
 
    ```bash
    uvicorn api_modelo_salario:app --reload
-4. Run the build of streamlit UI:
+5. Run the build of streamlit UI:
 
    ```bash
    streamlit run app_streamlit_salario.py
